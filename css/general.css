@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'OswaldLight';
+    src: url('font/Oswald-Light-webfont.eot');
+    src: url('font/Oswald-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Oswald-Light-webfont.woff') format('woff'),
+         url('font/Oswald-Light-webfont.ttf') format('truetype'),
+         url('font/Oswald-Light-webfont.svg#OswaldLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OswaldStencilRegular';
+    src: url('font/Oswald-Stencil-webfont.eot');
+    src: url('font/Oswald-Stencil-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Oswald-Stencil-webfont.woff') format('woff'),
+         url('font/Oswald-Stencil-webfont.ttf') format('truetype'),
+         url('font/Oswald-Stencil-webfont.svg#OswaldStencilRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OswaldBook';
+    src: url('font/Oswald-Regular-webfont.eot');
+    src: url('font/Oswald-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Oswald-Regular-webfont.woff') format('woff'),
+         url('font/Oswald-Regular-webfont.ttf') format('truetype'),
+         url('font/Oswald-Regular-webfont.svg#OswaldBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+ margin:0px;
+ background-color:#fff;
+ font-family:'OswaldLight',Arial,Helvetica,sans-serif;
+}
+.limpiar{clear:both;}
+a{text-decoration:none;}
+img{border:none;}
+#contenedor{
+ width:970px;
+ margin:auto;
+
+ position:relative;
+}
+
+#cabecera{
+ position:relative;
+}
+#logo{float:left;width:250px;padding-left:30px;}
+#menu{position:absolute;bottom:0px;left:290px;border-bottom:1px solid #d8d8d8;padding-bottom:22px;}
+#menu ul{list-style:none;margin:0px;padding:0px;padding-left:20px;}
+#menu ul li{float:left;margin-right:20px;color:#2e343a;}
+#menu ul li a{color:#2e343a;}
+#menu ul li a.activo{font-weight:700;text-decoration:overline;}
+
+#banner{
+ margin-top:20px;margin-left:30px;
+ height:362px;width:941px;
+}
+#bannerinterior{
+ margin-top:20px;margin-left:30px;
+ width:941px;
+}
+#frases{
+ position:absolute;
+ top:435px;right:5px;
+ letter-spacing: 0.1em;
+ color:#2e343a; 
+ font-family:'OswaldLight',Arial,Helvetica,sans-serif;
+ z-index:10;font-style:italic;
+}
+#frases .frase1{
+
+ width:460px;height:29px;
+ font-size: 14pt;
+ padding-left:30px;
+ padding-top:10px;
+}
+#frases span{ font-family:'OswaldStencilRegular',Arial,Helvetica,sans-serif; }
+#frases .frase2{
+
+ width:460px;height:34px;
+ padding-left:30px;
+}
+#navegador{margin-top:20px;margin-left:30px;}
+#navegador #titulo{
+ width:120px;
+ height:40px;
+ padding-top:20px;
+ padding-left:30px;
+ background-color:#2e343a; 
+ float:left;
+ color:#fff;
+}
+#navegador #flechas{
+ float:right;
+}
+#navegador #flechas a{
+ display:block;
+ width:50px;
+ height:35px;
+ padding-top:5px;
+ background-color:#2e343a;  
+ float:left;
+ text-align:center;
+ 
+}
+.ultimostrabajos {
+	margin-left:30px;
+	margin-bottom:35px;
+}
+.ultimostrabajos #foo1 div.obra {
+	background-color: white;
+	padding: 10px;
+	display: block;
+	float: left;
+	width:300px;
+	height:274px;
+	position:relative;
+}
+.ultimostrabajos #foo1 div .titulo{
+ color:#fff;
+ height:32px;
+ background: #65696e url(../images/iconoobra.png) no-repeat;
+ position:absolute;
+ width:250px;
+ top:152px;left:10px;
+ padding:6px 0px 0px 50px;
+ z-index: 10;
+
+}
+.ultimostrabajos #foo1 div .descripcion{
+ width:262px;margin-left:38px;height:36px;
+ border-bottom:3px solid #222529;
+ padding-top:10px;color:#7c7e7f;
+}
+.ultimostrabajos #foo1 div .leermas{
+ margin-left:200px;width:100px;height:30px;
+ background-color: #222529;
+ color:#fff;padding-top:5px;
+ text-align:center;
+}
+.obras{margin-left:30px;margin-top:30px;}
+.obras .obra{
+ float:left;
+ width:300px;
+ margin-right:20px;
+ margin-bottom:30px;
+}
+.obras .ultima{margin-right:0px;}
+.obras .obra img{width:300px;}
+.obras .obra h3{margin:5px 0px;color:#7c7e7f;font-size:12pt;}
+.obras .obra p{margin:0px;color:#7c7e7f;font-size:10pt;}
+
+#contenidos{
+width:970px;
+margin:auto;
+position:relative;
+color:#4c4c4c;
+font-size:11pt;
+}
+#contenidos p,#contenidos h2{
+margin-left:30px;
+}
+#contenidos ul{margin-left:30px;}
+#contenidos .banda{
+ width:940px;
+ margin-left:30px;
+ height:80px;
+ border-bottom: 1px solid #7c7e7f;
+ margin-bottom:25px;
+}
+#contenidos .banda .icono{ 
+ float:left;
+ width:82px;
+ height:80px;
+ background-color: #41464e;
+ position:relative;
+}
+#contenidos .banda .icono img{ 
+ position:absolute;
+ left:50%;
+ top:50%;
+ margin-left:-21px;
+ margin-top:-21px;
+ width:42px;height:42px;
+}
+#contenidos .banda .texto{
+ float:left;
+ width:685px;
+ padding-left:20px;
+ color:#6a6a6a;
+ padding-top:8px;
+}
+#contenidos .banda .texto span{
+ font-family:'OswaldStencilRegular',Arial,Helvetica,sans-serif;
+}
+#contenidos .banda .texto h3{
+ font-size:14pt;font-weight:normal;margin:0px;
+}
+
+#contenidos .banda .boton{
+ float:right;
+ width:150px;
+ height:55px;background-color: #6a6a6a;
+ color:#fff;text-align: center;
+ padding-top:25px;
+ font-size: 14pt;letter-spacing: 0.1em;
+}
+
+#contenidoizquierda{
+padding-top:19px;
+width:640px;
+position:relative;
+color:#4c4c4c;	
+float:left;
+}
+
+#contenidoderecha{
+width:280px;
+position:relative;
+float:right;
+}
+
+#contenidos .bandaseparador{
+ margin-left:30px;
+ height:39px;
+ margin-bottom:25px;
+ background-color:#696e74;
+}
+#contenidos .bandaseparador .icono{ 
+ float:left;
+ width:39px;
+ height:39px;
+ background-color: #41464e;
+ position:relative;
+}
+#contenidos .bandaseparador .icono img{ 
+ position:absolute;
+ left:50%;
+ top:50%;
+ margin-left:-12px;
+ margin-top:-12px;
+ width:24px;height:24px;
+}
+#contenidos .bandaseparador .titulo{
+ color:#fff;
+ padding:7px 0px 0px 50px; 
+}
+
+#contenidos .bandaespecial{
+ margin-left:80px;
+ margin-bottom:25px;
+}
+#contenidos .bandaespecial .icono{ 
+ float:left;
+ width:39px;
+ height:39px;
+ background-color: #23b188;
+ position:relative;
+}
+#contenidos .bandaespecial .icono img{ 
+ position:absolute;
+ left:50%;
+ top:50%;
+ margin-left:-12px;
+ margin-top:-12px;
+ width:24px;height:24px;
+}
+#contenidos .bandaespecial p{
+ font-style: italic;
+ border-left:2px solid #23b188;
+ padding: 10px 20px;
+ font-family:'OswaldLight',Arial,Helvetica,sans-serif;
+ margin-left:39px;
+ color:#6a6a6a;min-height: 90px;
+}
+
+#contenidos .oculto1,#contenidos .oculto2,#contenidos .oculto3,#contenidos .oculto4{
+ display:none;
+}
+#contenidos p.seccionleermas{
+ border-top:3px solid #23b188;
+}
+#contenidos a.leermas{
+ margin-left:840px;width:100px;height:30px;
+ background-color: #23b188;display:block;
+ color:#fff;padding-top:5px;
+ text-align:center;
+}
+#contenidos p.final{
+ padding-bottom:20px;
+ border-bottom:3px solid #23b188;
+}
+
+
+#contenidoderecha .widget{
+ width:110px;height:44px;background-color:#41464e;
+ color:#fff;text-align:center;
+ font-size:13pt;padding-top:14px;
+}
+
+#contenidoderecha #marcadores ul{
+list-style:none;
+margin:0px;margin-top:20px;
+padding:0px;
+padding-bottom:22px;
+}
+#contenidoderecha #marcadores ul li a{
+ float:left; width:73px; height:31px;
+ color:#6a6a6a; text-align:center;
+ padding-top:8px;
+}
+#contenidoderecha #marcadores ul li a.activo{color:#fff; background-color:#a1a4a7;}
+
+#contenidoderecha .apartado{
+ border-bottom: 1px solid #dddfdd;
+ margin-top:20px;
+}
+.apartado img{ float:left;
+ margin-right:15px;
+ margin-left:15px;
+ margin-bottom:10px;
+}
+.apartado h5{
+ margin:0px;
+ font-size:12pt;
+ font-weight:300;
+ color:#2bb58e;
+}
+.apartado .fecha{
+ margin:0px;
+ font-size:10pt ;
+ color: #52555a;
+ padding-bottom:5px;
+}
+.apartado p{
+ margin:0px;
+ font-size:9pt ;
+ color:#52555a ;
+}
+
+
+#franjapie{
+ background-color: #2e343a;
+ height:150px;
+ margin-top:30px;
+}
+#pie{
+ width:970px;
+ margin:auto;
+}
+#pie ul{
+ list-style: none;
+ margin:0px;padding:0px;
+ margin-left:30px;padding-top:17px;
+}
+#pie ul li{
+ float:left;margin-right: 15px;
+ color:#fff;
+ }
+ 
+#pie ul li a{color:#fff;} 
+#pie ul li a.activo{font-weight:700;text-decoration:overline;} 
